@@ -29,7 +29,7 @@ pointer.addEventListener("input", () => {
         dollar = 24.00
         price.innerText = "$" + dollar + ".00"
         z = 4
-    } else if (pointer.value > 90 && pointer.value < 102){
+    } else if (pointer.value > 90 && pointer.value < 100){
         pageviews.innerText = "1M PAGEVIEWS"
         dollar = 36.00
         price.innerText = "$" + dollar + ".00"
